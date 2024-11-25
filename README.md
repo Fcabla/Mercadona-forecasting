@@ -21,7 +21,7 @@ Use the dependency manager (and/or virtual environment) of your choice for this 
 - scikit-learn
 - plotly
 
-Other requirements are included in the requirements.txt file
+To reproduce the environment used for this project, please refer to the `requirements.txt` file, which contains all the necessary package installations.
 
 ## Directory Structure
 ```
@@ -39,3 +39,9 @@ forecast-exercise/
     └── 2-model-training.ipynb
 ```
 
+Inside the `data` folder, you will find a file named `sales_predictions_2019.csv`, which contains the "submission" results.
+
+In the `app` folder, you will find:
+- `app.py`: The API implementation.
+- `test.py`: A sample API call for testing.
+- The trained model from notebook 2 (model training) saved in pickle format.
